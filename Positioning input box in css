@@ -1,0 +1,12 @@
+In order to create an input box which covers the whole window 
+
+HTML:
+  <input type="text" id="input-el" />
+  <button id="input-btn">Save Input</button>
+
+CSS:
+#input-el{
+  width:100%;  //100% width also adds the button to the next line 
+  height:30px;
+  box-sizing: border-box;
+}
