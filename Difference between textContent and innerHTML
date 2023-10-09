@@ -1,0 +1,4 @@
+for(let i =0;i<myLeads.length;i++){
+  ulEl.innerHTML += "<li>" + myLeads[i] +  "</li>";
+}
+if you use textContent here it will <li> but if we use innerHTML instead it will give us bullet points.
