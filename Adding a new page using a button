@@ -1,0 +1,7 @@
+function alzihmerquiz(){
+  window.location.href = 'quiz.html';
+}
+//This is the javascript the new file is named quiz.html
+
+<button class="btn btn1" onclick="alzihmerquiz()"><div class="btn1bg">Take Alzheimer Quiz</div></button>
+//this is the button
