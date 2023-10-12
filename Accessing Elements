@@ -1,0 +1,4 @@
+We had 3 elements the answer buttons the text content and the next button and hence we create three components:
+const button = document.getElementById("question");
+const answer = document.getElementById("answer-buttons");
+const next = document.getElementById("next-btn");
