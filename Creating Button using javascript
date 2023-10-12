@@ -1,0 +1,8 @@
+currentquestion.answers.forEach(answer=>{
+    const button = document.createElement("button");
+    button.innerHTML = answer.text;
+    button.classList.add("btn");
+    answerButton.appendChild(button);
+  })
+appendChild - this is adding every button to my div which i have created in html .
+Look at the alzihmer code if you dont understand any part of it .
