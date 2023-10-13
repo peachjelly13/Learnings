@@ -1,2 +1,2 @@
-# Learnings
-- A note of my learnings.
+# Learnings 
+- A note of my Javascript learnings.
