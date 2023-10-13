@@ -1,0 +1,14 @@
+- We do this by passing an argument inside the function.
+- Pass fnctions instead of hardcoding values
+- Please avoid using " " in template literals / strings because it is very much going to include that .
+- const welcomeEl = document.getElementById("welcome-el")
+
+// Add the ability to choose the emoji as well!
+
+function greetUser(greeting, name, emoji) {
+    welcomeEl.textContent = `${greeting}, ${name} ${emoji}`
+}
+
+greetUser("Howdy", "James", "🔥")
+
+  This is how passing parameters helps it makes the code more generalized.
